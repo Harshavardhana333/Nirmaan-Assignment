@@ -55,7 +55,7 @@ const HomePage = () => {
   const currentTab = tabs.find(tab => tab.id === selectedTab);
 
   return (
-    <div className='flex w-auto bg-orange-400 min-h-auto bg-gradient-to-b from-orange-400 to-[#f06e62]'>
+    <div className='flex max-sm:flex-col max-sm:min-h-screen w-auto bg-orange-400 min-h-auto bg-gradient-to-b from-orange-400 to-[#f06e62]'>
       <Sidebar
         tabs={tabs}
         selectedTab={selectedTab}

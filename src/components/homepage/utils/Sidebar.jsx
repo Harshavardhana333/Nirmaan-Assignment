@@ -9,7 +9,7 @@ const Sidebar = ({ tabs, selectedTab, addNewTab, setSelectedTab, deleteTab, rece
   };
 
   return (
-    <div className='min-h-screen min-w-[15vw] flex flex-col p-[20px] gap-[15px]'>
+    <div className='md:min-h-screen max-sm:min-h-auto min-w-[15vw] flex flex-col p-[20px] gap-[15px]'>
       <span className='text-center text-[25px] font-semibold bg-[#e5ac39] text-gray-800 rounded-[15px]'>
         Movies Mania
       </span>
